@@ -10,9 +10,6 @@
   grid-template-columns: 1fr 3fr;
 }
 
-.cardHeader img {
-}
-
 .header {
   height: 36px;
   font-weight: 500;
@@ -68,9 +65,6 @@
   font-size: 16px;
   line-height: 1.5;
   color: var(--secondary-text-color);
-}
-
-.btnCover {
   width: 106px;
   height: 42px;
   border-radius: 8px;
@@ -82,6 +76,7 @@
 .card,
 .heartIcon,
 .iconCover:first-child,
+.btn,
 .card::before {
   transition: 250ms ease-in-out;
 }
@@ -93,10 +88,6 @@
   background-color: var(--bg-color);
   position: relative;
   overflow: hidden;
-}
-
-.cardSmall {
-  padding: 28px 22px;
 }
 
 .card:hover {
@@ -113,7 +104,7 @@
   background-color: #283036;
 }
 
-.card:hover .btnCover {
+.card:hover .btn {
   background-color: var(--primary-color);
 }
 
@@ -125,15 +116,24 @@
   opacity: 1;
 }
 
+.cardSmall {
+  padding: 28px 22px;
+  transition: 250ms ease-in-out;
+  background-color: var(--bg-color);
+}
+.cardSmall .iconCover:first-child {
+  background-color: #1e252b;
+}
+
 .cardSmall:hover .btn {
   background-color: var(--primary-color);
 }
 .cardSmall:hover .heartIcon {
   color: var(--secondary-text-color);
 }
-.cardSmall:hover .iconCover:first-child {
-  background-color: #242c31;
-  transition: 0ms !important;
+
+.cardSmall::after {
+  background-color: #1e252b;
 }
 
 .card::before {

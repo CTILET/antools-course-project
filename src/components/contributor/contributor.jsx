@@ -16,14 +16,11 @@ const contributor = () => {
         </div>
         <div className={styles.search}>
           <input type="text" placeholder="Enter your email..." />
-          <div className={styles.btn}>
-            <a href="/" className={styles.href}>
-              Join Us
-            </a>
-          </div>
+          <a href="/" className={styles.btn}>
+            Join Us
+          </a>
         </div>
       </div>
-     
     </section>
   )
 }

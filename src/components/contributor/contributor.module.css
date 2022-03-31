@@ -43,7 +43,7 @@
   border-radius: 15px;
   background-color: var(--gray-color);
 }
-.search::before {
+.search::after {
   content: "";
   position: absolute;
   top: 0;
@@ -59,7 +59,6 @@
   );
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
-  mask-composite: exclude;
 }
 
 .search input {
@@ -68,20 +67,16 @@
 }
 
 .btn {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 130.43px;
   height: 48px;
   padding: 12px 28px;
   border-radius: 8px;
   background-color: var(--primary-color);
-}
-
-.href {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 24px;
 }

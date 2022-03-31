@@ -37,11 +37,10 @@ export default function Card({ header, subHeader, info, logo, small }) {
               <AiOutlineFolderAdd className={styles.icon} />
             </div>
           </div>
-          <div className={styles.btnCover}>
-            <a href="/" className={styles.btn}>
-              Visit
-            </a>
-          </div>
+
+          <a href="/" className={styles.btn}>
+            Visit
+          </a>
         </div>
       </div>
     </div>
