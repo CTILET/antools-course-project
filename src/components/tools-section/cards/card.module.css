@@ -1,0 +1,150 @@
+.cardInfo {
+  max-width: 326px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cardHeader {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.cardHeader img {
+}
+
+.header {
+  height: 36px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.subHeader {
+  color: #ffa537;
+  opacity: 55%;
+  height: 27px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.info {
+  max-width: 326px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  margin: 32px 0px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 326px;
+  height: 42px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: var(--secondary-text-color);
+}
+
+.iconCover {
+  padding: 7px;
+  width: 42px;
+  height: 42px;
+  margin-right: 12px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--secondary-text-color);
+}
+
+.btnCover {
+  width: 106px;
+  height: 42px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card,
+.heartIcon,
+.iconCover:first-child,
+.card::before {
+  transition: 250ms ease-in-out;
+}
+
+.card {
+  max-width: 392px;
+  border-radius: 15px;
+  padding: 33px;
+  background-color: var(--bg-color);
+  position: relative;
+  overflow: hidden;
+}
+
+.cardSmall {
+  padding: 28px 22px;
+}
+
+.card:hover {
+  background: rgba(40, 48, 54, 0.6);
+  backdrop-filter: blur(50px);
+  transform: translateY(-10px);
+}
+
+.card:hover .heartIcon {
+  color: #fd3b41;
+}
+
+.card:hover .iconCover:first-child {
+  background-color: #283036;
+}
+
+.card:hover .btnCover {
+  background-color: var(--primary-color);
+}
+
+.card:hover .btn {
+  color: #ffffff;
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.cardSmall:hover .btn {
+  background-color: var(--primary-color);
+}
+.cardSmall:hover .heartIcon {
+  color: var(--secondary-text-color);
+}
+.cardSmall:hover .iconCover:first-child {
+  background-color: #242c31;
+  transition: 0ms !important;
+}
+
+.card::before {
+  opacity: 0;
+  width: 65px;
+  height: 65px;
+  content: "";
+  top: -15px;
+  right: 16px;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(50px);
+  background-color: var(--primary-color);
+}

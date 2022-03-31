@@ -1,0 +1,71 @@
+.footerContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  margin-top: 70px;
+}
+
+.firstSection {
+  width: 270px;
+}
+
+.titleWrap {
+  width: 188px;
+  height: 24px;
+}
+
+.firstTitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.infoWrap {
+  width: 260px;
+  height: 75px;
+}
+
+.info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.lastSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 197px;
+  height: 142px;
+  margin-left: 156px;
+}
+
+.categories {
+  width: 112px;
+  height: 108px;
+  margin-left: 120px;
+}
+
+.companyInfo {
+  width: 144px;
+  height: 142px;
+  margin-left: 83px;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.lastSection p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 10px 0px;
+}

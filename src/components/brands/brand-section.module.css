@@ -1,0 +1,106 @@
+.brandsCover {
+  width: 1224px;
+  height: 253px;
+  margin: 200px auto;
+  background: rgba(44, 53, 61, 0.2);
+  backdrop-filter: blur(50px);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.brandsCover::before {
+  width: 65px;
+  height: 65px;
+  content: "";
+  top: -10px;
+  left: 16px;
+  border-radius: 50%;
+  position: absolute;
+  filter: blur(50px);
+  background-color: var(--primary-color);
+}
+.brands {
+  width: 1059px;
+  height: 142px;
+}
+
+.brandIcons {
+  margin-top: 56px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.title {
+  height: 36px;
+  left: 536px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.title h1 {
+  color: #ffffff;
+  opacity: 0.8;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.brandsIcons {
+  width: 1059px;
+  height: 51px;
+}
+
+.toolsContainer {
+  margin-top: 200px;
+  width: 1224px;
+  height: 638px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-items: end;
+}
+
+.newcomer {
+  width: 427px;
+  height: 300px;
+  padding-top: 28px;
+}
+
+.newcomer h1 {
+  width: 401px;
+  height: 62px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+}
+
+.newcomer p {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  margin-bottom: 60px;
+}
+
+.cardSection {
+  max-width: 600px;
+  height: 638px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.card {
+  width: 288px;
+  height: 284px;
+  background-color: blueviolet;
+  border-radius: 15px;
+}

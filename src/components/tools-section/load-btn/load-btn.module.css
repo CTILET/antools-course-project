@@ -1,0 +1,26 @@
+.btnOver {
+  width: 184px;
+  height: 64px;
+  margin: 100px auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  
+}
+
+.btnOver:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.btnOver:hover .btn {
+  color: #283036;
+}

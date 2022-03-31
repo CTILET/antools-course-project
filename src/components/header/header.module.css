@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  padding: 26px 0;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.link {
+  opacity: 0.55;
+  font-size: 16px;
+}
+
+.dropdownLink {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dropdownLinkIcon {
+  font-size: 1.7em;
+}
