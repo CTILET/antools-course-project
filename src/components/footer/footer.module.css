@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   margin-top: 70px;
+  margin-bottom: 98px;
 }
 
 .firstSection {
@@ -33,30 +34,28 @@
 .lastSection {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .contact {
   display: flex;
   flex-direction: column;
   width: 197px;
-  height: 142px;
   margin-left: 156px;
 }
 
 .categories {
   width: 112px;
-  height: 108px;
-  margin-left: 120px;
+  margin-left: 115px;
 }
 
 .companyInfo {
   width: 144px;
-  height: 142px;
-  margin-left: 83px;
+  margin-left: 118px;
 }
 
 h4 {
+  cursor: default;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;

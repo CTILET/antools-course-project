@@ -52,6 +52,10 @@
   mask-composite: exclude;
 }
 
+.search > * {
+  position: relative;
+}
+
 .search input {
   width: 100%;
   background-color: transparent;

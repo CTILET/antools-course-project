@@ -43,7 +43,8 @@
   border-radius: 15px;
   background-color: var(--gray-color);
 }
-.search::after {
+
+.search::before {
   content: "";
   position: absolute;
   top: 0;
@@ -64,6 +65,10 @@
 .search input {
   width: 100%;
   background-color: transparent;
+}
+
+.search > * {
+  position: relative;
 }
 
 .btn {

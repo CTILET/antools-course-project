@@ -11,16 +11,35 @@
   overflow: hidden;
 }
 
-.brandsCover::before {
-  width: 65px;
-  height: 65px;
+.brandsCover::after {
+  overflow: hidden;
   content: "";
-  top: -10px;
-  left: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 25px;
+  padding: 1.5px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+}
+
+.brandsCover::before {
+  width: 159px;
+  height: 159px;
+  content: "";
+  top: -90px;
+  left: -90px;
   border-radius: 50%;
   position: absolute;
-  filter: blur(50px);
-  background-color: var(--primary-color);
+  filter: blur(90px);
+  background-color: rgba(255, 72, 66, 0.4);
 }
 .brands {
   width: 1059px;

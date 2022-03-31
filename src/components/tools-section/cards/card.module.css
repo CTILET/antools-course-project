@@ -121,13 +121,19 @@
   transition: 250ms ease-in-out;
   background-color: var(--bg-color);
 }
-.cardSmall .iconCover:first-child {
-  background-color: #1e252b;
+
+.card.cardSmall:hover .iconCover:first-child {
+  background-color: transparent;
 }
 
 .cardSmall:hover .btn {
   background-color: var(--primary-color);
 }
+
+.cardSmall:hover .iconCover {
+  background-color: transparent;
+}
+
 .cardSmall:hover .heartIcon {
   color: var(--secondary-text-color);
 }
