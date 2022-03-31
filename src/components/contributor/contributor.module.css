@@ -68,7 +68,11 @@
 }
 
 .btn {
-  cursor: pointer;
+   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
   width: 130.43px;
   height: 48px;
   padding: 12px 28px;
@@ -77,7 +81,8 @@
 }
 
 .href {
-  font-weight: 600;
-  font-size: 16px;
+  
+  font-weight: 500;
+  font-size: 15px;
   line-height: 24px;
 }
