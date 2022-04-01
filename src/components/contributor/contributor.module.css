@@ -1,6 +1,6 @@
 .ContributerSection {
   margin-top: 250px;
-  padding-bottom: 240px;
+  padding-bottom: 140px;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.15);
 }
 
@@ -31,7 +31,8 @@
 }
 
 .search {
-  margin: auto;
+  margin: 100px auto;
+
   display: flex;
   position: relative;
   gap: 10px;
